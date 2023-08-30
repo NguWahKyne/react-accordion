@@ -1,0 +1,50 @@
+/* FAQ CSS */
+h2{
+    font-size: 42px;
+    color: rgb(181, 102, 102);
+    margin:0px;
+    margin-bottom: 30px;
+    text-align: center !important;
+  }
+
+  .accordion-simple > .active{
+    display: block;
+  }
+
+  .accordion_faq{
+    margin:0 5%;
+  }
+  
+  .accordion_faq .inactive{
+    display: none;
+  }
+  
+  .accordion_faq > div{
+    background-color: #ebe6e6a6;
+    margin-bottom: 20px;
+    padding: 0px 15px;
+    border-radius: 5px;
+    cursor:pointer;
+  }
+  
+  .accordion_title{
+    color: #3c5365;
+    padding: 20px 0px;
+    font-weight: 500;
+  }
+  .accordion_faq_heading{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+  }
+  .accordion_faq_heading h3{
+    color:#3c5365;
+    font-weight: 600;
+  }
+
+  .accordion_faq p{
+    margin:8px;
+    padding-bottom: 30px;
+    color:#3d596e;
+    line-height: 1.4;;
+  }
